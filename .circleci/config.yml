@@ -12,7 +12,7 @@ jobs:
           command: npm install
       - run:
           name: Run UI Tests
-          command: npm run test:ui  
+          command: npm run test:nightwatch  
 
   # to run API tests
   api_tests:
