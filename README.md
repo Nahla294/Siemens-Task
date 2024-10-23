@@ -23,3 +23,5 @@ Documents:
 1. Bug report csv attatched in manualReports document
 2. Test documentation report csv attatched in manualReports document
 3. Manual API test report attatched in manualReports document
+
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/Nahla294/Siemens-Task/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/Nahla294/Siemens-Task/tree/main)
