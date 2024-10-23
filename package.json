@@ -5,7 +5,7 @@
   "description": "API and E2E testing for Siemens Task using Jest and Nightwatch",
   "scripts": {
     "test:api": "jest",
-    "test:nightwatch": "nightwatch",
+    "test:ui": "nightwatch",
     "dev": "nodemon ./node_modules/mock-user-auth/bin/www.js"
   },
   "keywords": [],
