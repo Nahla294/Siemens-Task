@@ -1,0 +1,37 @@
+version: 2.1
+
+jobs:
+  # Job to run UI tests
+  ui_tests:
+    docker:
+      - image: circleci/node:14.18.0  # Specify a Node.js image
+    steps:
+      - checkout
+      - run:
+          name: Install Dependencies
+          command: npm install
+      - run:
+          name: Run UI Tests
+          command: npm run test:ui  # Assuming test:ui script is in your package.json
+
+  # Job to run API tests
+  api_tests:
+    docker:
+      - image: circleci/node:14.18.0  # Specify a Node.js image
+    steps:
+      - checkout
+      - run:
+          name: Install Dependencies
+          command: npm install
+      - run:
+          name: Run API Tests
+          command: npm run test:api  # Assuming test:api script is in your package.json
+
+workflows:
+  version: 2
+  test_workflow:
+    jobs:
+      - ui_tests
+      - api_tests:
+          requires:
+            - ui_tests  # Ensures that API tests run only after UI tests pass
