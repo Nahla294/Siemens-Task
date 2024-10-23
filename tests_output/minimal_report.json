@@ -1,0 +1,1 @@
+{"modules":{"api/api.test":{"modulePath":"/Users/nahlaahmed/Siemens-Task/tests/api/api.test.js","status":"skip"},"nightwatch/contactUsTest":{"modulePath":"/Users/nahlaahmed/Siemens-Task/tests/nightwatch/contactUsTest.js","status":"fail"},"nightwatch/searchTests":{"modulePath":"/Users/nahlaahmed/Siemens-Task/tests/nightwatch/searchTests.js","status":"fail"}}}

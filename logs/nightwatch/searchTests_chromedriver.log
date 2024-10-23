@@ -1,0 +1,329 @@
+Starting ChromeDriver 130.0.6723.58 (3a50e012e4c9b8a410a4e2b12bf577e69ee8f755-refs/branch-heads/6723@{#1353}) on port 9515
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 9515.
+[1729610521.451][INFO]: [8bfe04891236e9b74a641a841b36a24a] COMMAND InitSession {
+   "capabilities": {
+      "alwaysMatch": {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+         }
+      },
+      "firstMatch": [ {
+      } ]
+   }
+}
+[1729610521.451][INFO]: Browser search. Trying... /Users/nahlaahmed/Siemens-Task/node_modules/chromedriver/lib/chromedriver/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1729610521.451][INFO]: Browser search. Trying... /Users/nahlaahmed/Siemens-Task/node_modules/chromedriver/lib/chromedriver/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1729610521.451][INFO]: Browser search. Trying... /Users/nahlaahmed/Siemens-Task/node_modules/chromedriver/lib/chromedriver/Google Chrome.app/Contents/MacOS/Google Chrome
+[1729610521.451][INFO]: Browser search. Trying... /Users/nahlaahmed/Siemens-Task/node_modules/chromedriver/lib/chromedriver/Chromium.app/Contents/MacOS/Chromium
+[1729610521.451][INFO]: Browser search. Trying... /Users/nahlaahmed/Applications/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1729610521.451][INFO]: Browser search. Trying... /Applications/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1729610521.451][INFO]: Browser search. Trying... /Users/nahlaahmed/Siemens-Task/node_modules/chromedriver/lib/chromedriver/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1729610521.451][INFO]: Browser search. Trying... /Users/nahlaahmed/Siemens-Task/node_modules/.bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1729610521.451][INFO]: Browser search. Trying... /Users/nahlaahmed/node_modules/.bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1729610521.451][INFO]: Browser search. Trying... /Users/node_modules/.bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1729610521.451][INFO]: Browser search. Trying... /node_modules/.bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1729610521.451][INFO]: Browser search. Trying... /opt/homebrew/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1729610521.451][INFO]: Browser search. Trying... /Users/nahlaahmed/Android/Sdk/tools/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1729610521.451][INFO]: Browser search. Trying... /Users/nahlaahmed/Android/Sdk/tools/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1729610521.451][INFO]: Browser search. Trying... /Users/nahlaahmed/Android/Sdk/platform-tools/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1729610521.451][INFO]: Browser search. Trying... /opt/homebrew/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1729610521.451][INFO]: Browser search. Trying... /opt/homebrew/sbin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1729610521.451][INFO]: Browser search. Trying... /usr/local/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1729610521.451][INFO]: Browser search. Trying... /System/Cryptexes/App/usr/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1729610521.451][INFO]: Browser search. Trying... /usr/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1729610521.451][INFO]: Browser search. Trying... /bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1729610521.451][INFO]: Browser search. Trying... /usr/sbin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1729610521.451][INFO]: Browser search. Trying... /sbin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1729610521.451][INFO]: Browser search. Trying... /var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1729610521.451][INFO]: Browser search. Trying... /var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1729610521.451][INFO]: Browser search. Trying... /var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1729610521.451][INFO]: Browser search. Trying... /Library/Apple/usr/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1729610521.451][INFO]: Browser search. Trying... /Users/nahlaahmed/Android/Sdk/tools/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1729610521.451][INFO]: Browser search. Trying... /Users/nahlaahmed/Android/Sdk/tools/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1729610521.451][INFO]: Browser search. Trying... /Users/nahlaahmed/Android/Sdk/platform-tools/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1729610521.451][INFO]: Browser search. Trying... /Users/nahlaahmed/Applications/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1729610521.451][INFO]: Browser search. Trying... /Applications/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1729610521.451][INFO]: Browser search. Trying... /Users/nahlaahmed/Siemens-Task/node_modules/chromedriver/lib/chromedriver/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1729610521.451][INFO]: Browser search. Trying... /Users/nahlaahmed/Siemens-Task/node_modules/.bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1729610521.451][INFO]: Browser search. Trying... /Users/nahlaahmed/node_modules/.bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1729610521.451][INFO]: Browser search. Trying... /Users/node_modules/.bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1729610521.451][INFO]: Browser search. Trying... /node_modules/.bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1729610521.451][INFO]: Browser search. Trying... /opt/homebrew/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1729610521.451][INFO]: Browser search. Trying... /Users/nahlaahmed/Android/Sdk/tools/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1729610521.451][INFO]: Browser search. Trying... /Users/nahlaahmed/Android/Sdk/tools/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1729610521.451][INFO]: Browser search. Trying... /Users/nahlaahmed/Android/Sdk/platform-tools/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1729610521.451][INFO]: Browser search. Trying... /opt/homebrew/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1729610521.451][INFO]: Browser search. Trying... /opt/homebrew/sbin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1729610521.451][INFO]: Browser search. Trying... /usr/local/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1729610521.451][INFO]: Browser search. Trying... /System/Cryptexes/App/usr/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1729610521.451][INFO]: Browser search. Trying... /usr/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1729610521.451][INFO]: Browser search. Trying... /bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1729610521.451][INFO]: Browser search. Trying... /usr/sbin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1729610521.451][INFO]: Browser search. Trying... /sbin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1729610521.451][INFO]: Browser search. Trying... /var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1729610521.451][INFO]: Browser search. Trying... /var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1729610521.451][INFO]: Browser search. Trying... /var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1729610521.451][INFO]: Browser search. Trying... /Library/Apple/usr/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1729610521.451][INFO]: Browser search. Trying... /Users/nahlaahmed/Android/Sdk/tools/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1729610521.451][INFO]: Browser search. Trying... /Users/nahlaahmed/Android/Sdk/tools/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1729610521.451][INFO]: Browser search. Trying... /Users/nahlaahmed/Android/Sdk/platform-tools/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1729610521.451][INFO]: Browser search. Trying... /Users/nahlaahmed/Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+[1729610521.451][INFO]: Browser search. Trying... /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+[1729610521.451][INFO]: Browser search. Found at  /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+[1729610521.451][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1729610521.451][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1729610521.451][INFO]: ChromeDriver supports communication with Chrome via pipes. This is more reliable and more secure.
+[1729610521.451][INFO]: Use the --remote-debugging-pipe Chrome switch instead of the default --remote-debugging-port to enable this communication mode.
+[1729610521.451][INFO]: Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --allow-pre-commit-input --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-logging=stderr --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/var/folders/_v/w1c1qsxs0bx4f5mwbzl36gzh0000gn/T/.org.chromium.Chromium.s6pvbK data:,
+[19801:259:1022/182201.533847:WARNING:chrome_main_delegate.cc(744)] This is Chrome version 130.0.6723.58 (not a warning)
+[19801:259:1022/182201.731074:ERROR:chrome_browser_main.cc(1141)] The use of Rosetta to run the x64 version of Chromium on Arm is neither tested nor maintained, and unexpected behavior will likely result. Please check that all tools that spawn Chromium are Arm-native.
+[19801:259:1022/182204.754256:INFO:chrome_browser_cloud_management_controller.cc(196)] No machine level policy manager exists.
+
+DevTools listening on ws://127.0.0.1:51075/devtools/browser/fa790414-01f4-49c7-9e82-a63208a6496f
+[1729610524.871][DEBUG]: DevTools HTTP Request: http://localhost:51075/json/version
+[19807:259:1022/182204.936009:WARNING:viz_main_impl.cc(85)] VizNullHypothesis is disabled (not a warning)
+[1729610525.280][DEBUG]: DevTools HTTP Response: {
+   "Browser": "Chrome/130.0.6723.58",
+   "Protocol-Version": "1.3",
+   "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",
+   "V8-Version": "13.0.245.16",
+   "WebKit-Version": "537.36 (@3a50e012e4c9b8a410a4e2b12bf577e69ee8f755)",
+   "webSocketDebuggerUrl": "ws://localhost:51075/devtools/browser/fa790414-01f4-49c7-9e82-a63208a6496f"
+}
+
+[1729610525.280][DEBUG]: DevTools HTTP Request: http://localhost:51075/json/list
+[1729610525.343][DEBUG]: DevTools HTTP Response: [ {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:51075/devtools/page/25F7BE75F84EDC53BD7F0E8416C5FF77",
+   "id": "25F7BE75F84EDC53BD7F0E8416C5FF77",
+   "title": "",
+   "type": "page",
+   "url": "data:,",
+   "webSocketDebuggerUrl": "ws://localhost:51075/devtools/page/25F7BE75F84EDC53BD7F0E8416C5FF77"
+} ]
+
+[1729610525.344][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1729610525.382][DEBUG]: DevTools WebSocket Command: Target.getTargets (id=1) (session_id=) browser {
+}
+[1729610525.390][DEBUG]: DevTools WebSocket Response: Target.getTargets (id=1) (session_id=) browser {
+   "targetInfos": [ {
+      "attached": false,
+      "browserContextId": "3318130BA37111B2B86A3D25FEBB7A02",
+      "canAccessOpener": false,
+      "targetId": "25F7BE75F84EDC53BD7F0E8416C5FF77",
+      "title": "",
+      "type": "page",
+      "url": "data:,"
+   } ]
+}
+[1729610525.390][DEBUG]: DevTools WebSocket Command: Target.attachToTarget (id=2) (session_id=) browser {
+   "flatten": true,
+   "targetId": "25F7BE75F84EDC53BD7F0E8416C5FF77"
+}
+[1729610525.394][DEBUG]: DevTools WebSocket Event: Target.attachedToTarget (session_id=) browser {
+   "sessionId": "4A2F75CC9ADB1C5F6168181FD2FC7B1D",
+   "targetInfo": {
+      "attached": true,
+      "browserContextId": "3318130BA37111B2B86A3D25FEBB7A02",
+      "canAccessOpener": false,
+      "targetId": "25F7BE75F84EDC53BD7F0E8416C5FF77",
+      "title": "",
+      "type": "page",
+      "url": "data:,"
+   },
+   "waitingForDebugger": false
+}
+[1729610525.394][DEBUG]: DevTools WebSocket Response: Target.attachToTarget (id=2) (session_id=) browser {
+   "sessionId": "4A2F75CC9ADB1C5F6168181FD2FC7B1D"
+}
+[1729610525.394][DEBUG]: DevTools WebSocket Command: Page.enable (id=3) (session_id=4A2F75CC9ADB1C5F6168181FD2FC7B1D) 25F7BE75F84EDC53BD7F0E8416C5FF77 {
+}
+[1729610525.395][DEBUG]: DevTools WebSocket Command: Page.addScriptToEvaluateOnNewDocument (id=4) (session_id=4A2F75CC9ADB1C5F6168181FD2FC7B1D) 25F7BE75F84EDC53BD7F0E8416C5FF77 {
+   "source": "(function () {window.cdc_adoQpoasnfa76pfcZLmcfl_Array = window.Array;window.cdc_adoQpoasnfa76pfcZLmcfl_Object = window.Object;window.cdc_adoQpoasnfa76pfcZLmcfl_Promise = window.Promise;window.cdc_a..."
+}
+[1729610525.395][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=5) (session_id=4A2F75CC9ADB1C5F6168181FD2FC7B1D) 25F7BE75F84EDC53BD7F0E8416C5FF77 {
+   "expression": "(function () {window.cdc_adoQpoasnfa76pfcZLmcfl_Array = window.Array;window.cdc_adoQpoasnfa76pfcZLmcfl_Object = window.Object;window.cdc_adoQpoasnfa76pfcZLmcfl_Promise = window.Promise;window.cdc_a..."
+}
+[1729610525.395][DEBUG]: DevTools WebSocket Command: Log.enable (id=6) (session_id=4A2F75CC9ADB1C5F6168181FD2FC7B1D) 25F7BE75F84EDC53BD7F0E8416C5FF77 {
+}
+[1729610525.395][DEBUG]: DevTools WebSocket Command: Target.setAutoAttach (id=7) (session_id=4A2F75CC9ADB1C5F6168181FD2FC7B1D) 25F7BE75F84EDC53BD7F0E8416C5FF77 {
+   "autoAttach": true,
+   "flatten": true,
+   "waitForDebuggerOnStart": false
+}
+[1729610525.521][DEBUG]: DevTools WebSocket Response: Page.enable (id=3) (session_id=4A2F75CC9ADB1C5F6168181FD2FC7B1D) 25F7BE75F84EDC53BD7F0E8416C5FF77 {
+}
+[1729610525.521][DEBUG]: DevTools WebSocket Response: Page.addScriptToEvaluateOnNewDocument (id=4) (session_id=4A2F75CC9ADB1C5F6168181FD2FC7B1D) 25F7BE75F84EDC53BD7F0E8416C5FF77 {
+   "identifier": "1"
+}
+[1729610525.524][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=5) (session_id=4A2F75CC9ADB1C5F6168181FD2FC7B1D) 25F7BE75F84EDC53BD7F0E8416C5FF77 {
+   "result": {
+      "type": "undefined"
+   }
+}
+[1729610525.524][DEBUG]: DevTools WebSocket Response: Log.enable (id=6) (session_id=4A2F75CC9ADB1C5F6168181FD2FC7B1D) 25F7BE75F84EDC53BD7F0E8416C5FF77 {
+}
+[1729610525.524][DEBUG]: DevTools WebSocket Response: Target.setAutoAttach (id=7) (session_id=4A2F75CC9ADB1C5F6168181FD2FC7B1D) 25F7BE75F84EDC53BD7F0E8416C5FF77 {
+}
+[1729610525.524][DEBUG]: DevTools WebSocket Command: Runtime.enable (id=8) (session_id=4A2F75CC9ADB1C5F6168181FD2FC7B1D) 25F7BE75F84EDC53BD7F0E8416C5FF77 {
+}
+[1729610525.539][DEBUG]: DevTools WebSocket Event: Page.domContentEventFired (session_id=4A2F75CC9ADB1C5F6168181FD2FC7B1D) 25F7BE75F84EDC53BD7F0E8416C5FF77 {
+   "timestamp": 9782.760692
+}
+[1729610525.539][DEBUG]: DevTools WebSocket Event: Page.loadEventFired (session_id=4A2F75CC9ADB1C5F6168181FD2FC7B1D) 25F7BE75F84EDC53BD7F0E8416C5FF77 {
+   "timestamp": 9782.762375
+}
+[1729610525.541][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading (session_id=4A2F75CC9ADB1C5F6168181FD2FC7B1D) 25F7BE75F84EDC53BD7F0E8416C5FF77 {
+   "frameId": "25F7BE75F84EDC53BD7F0E8416C5FF77"
+}
+[1729610525.542][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated (session_id=4A2F75CC9ADB1C5F6168181FD2FC7B1D) 25F7BE75F84EDC53BD7F0E8416C5FF77 {
+   "context": {
+      "auxData": {
+         "frameId": "25F7BE75F84EDC53BD7F0E8416C5FF77",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 1,
+      "name": "",
+      "origin": "://",
+      "uniqueId": "3148114675639241818.-9093886011356571032"
+   }
+}
+[1729610525.542][DEBUG]: DevTools WebSocket Response: Runtime.enable (id=8) (session_id=4A2F75CC9ADB1C5F6168181FD2FC7B1D) 25F7BE75F84EDC53BD7F0E8416C5FF77 {
+}
+[1729610525.542][DEBUG]: DevTools WebSocket Command: Runtime.enable (id=9) (session_id=4A2F75CC9ADB1C5F6168181FD2FC7B1D) 25F7BE75F84EDC53BD7F0E8416C5FF77 {
+}
+[1729610525.543][DEBUG]: DevTools WebSocket Response: Runtime.enable (id=9) (session_id=4A2F75CC9ADB1C5F6168181FD2FC7B1D) 25F7BE75F84EDC53BD7F0E8416C5FF77 {
+}
+[1729610525.543][INFO]: [8bfe04891236e9b74a641a841b36a24a] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "130.0.6723.58",
+      "chrome": {
+         "chromedriverVersion": "130.0.6723.58 (3a50e012e4c9b8a410a4e2b12bf577e69ee8f755-refs/branch-heads/6723@{#1353})",
+         "userDataDir": "/var/folders/_v/w1c1qsxs0bx4f5mwbzl36gzh0000gn/T/.org.chromium.Chromium.s6pvbK"
+      },
+      "fedcm:accounts": true,
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:51075"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "mac",
+      "proxy": {
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:extension:minPinLength": true,
+      "webauthn:extension:prf": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "8bfe04891236e9b74a641a841b36a24a"
+}
+[1729610525.559][INFO]: [8bfe04891236e9b74a641a841b36a24a] COMMAND Navigate {
+   "url": "http://automationpractice.multiformis.com/index.php"
+}
+[1729610525.559][INFO]: Waiting for pending navigations...
+[1729610525.559][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=10) (session_id=4A2F75CC9ADB1C5F6168181FD2FC7B1D) 25F7BE75F84EDC53BD7F0E8416C5FF77 {
+   "expression": "1"
+}
+[1729610525.560][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=10) (session_id=4A2F75CC9ADB1C5F6168181FD2FC7B1D) 25F7BE75F84EDC53BD7F0E8416C5FF77 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1729610525.560][INFO]: Done waiting for pending navigations. Status: ok
+[1729610525.560][DEBUG]: DevTools WebSocket Command: Page.navigate (id=11) (session_id=4A2F75CC9ADB1C5F6168181FD2FC7B1D) 25F7BE75F84EDC53BD7F0E8416C5FF77 {
+   "url": "http://automationpractice.multiformis.com/index.php"
+}
+[1729610525.565][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading (session_id=4A2F75CC9ADB1C5F6168181FD2FC7B1D) 25F7BE75F84EDC53BD7F0E8416C5FF77 {
+   "frameId": "25F7BE75F84EDC53BD7F0E8416C5FF77"
+}
+[1729610527.009][DEBUG]: DevTools WebSocket Event: Inspector.detached (session_id=4A2F75CC9ADB1C5F6168181FD2FC7B1D) 25F7BE75F84EDC53BD7F0E8416C5FF77 {
+   "reason": "Render process gone."
+}
+[1729610527.009][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=12) (session_id=4A2F75CC9ADB1C5F6168181FD2FC7B1D) 25F7BE75F84EDC53BD7F0E8416C5FF77 {
+   "expression": "1"
+}
+[1729610527.027][DEBUG]: DevTools WebSocket Response: Page.navigate (id=11) (session_id=4A2F75CC9ADB1C5F6168181FD2FC7B1D) 25F7BE75F84EDC53BD7F0E8416C5FF77 {
+   "frameId": "25F7BE75F84EDC53BD7F0E8416C5FF77",
+   "loaderId": "534E7AE0F0F8A9F21E818EF888DFFC65"
+}
+[1729610527.045][DEBUG]: DevTools WebSocket Event: Target.detachedFromTarget (session_id=) browser {
+   "sessionId": "4A2F75CC9ADB1C5F6168181FD2FC7B1D",
+   "targetId": "25F7BE75F84EDC53BD7F0E8416C5FF77"
+}

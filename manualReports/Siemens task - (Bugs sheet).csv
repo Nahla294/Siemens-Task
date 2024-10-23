@@ -1,0 +1,50 @@
+Title,Steps to reproduce,Expected result,Actual result,Priority
+Search result for dresses is not returned correctly ,"1. open http://automationpractice.multiformis.com/index.php 
+2. write dress in search bar
+3. press on search icon",The search result should contain only dresses items,The search results contains items rather than dresses,Medium
+Token is not returned when user register its account,"1. use [post] /api/v1/users endpoint
+2. send name, email and passowrd
+{
+  ""name"": ""user1"",
+  ""email"": ""user1@gmail.com"",
+  ""password"": ""user123""
+}",message and token should be returned,No token returned,High
+"User is registered correctly while there is no email, password and name values are sent","1. use [post] /api/v1/users endpoint
+2. use this curl
+curl --location 'http://localhost:3000/api/v1/users' \
+--header 'Content-Type: application/json' \
+--data '{
+  ""name"": """",
+  ""email"": """",
+  ""password"": """"
+}'",user should not be registered and endpoint returns 400 bad request,endpoint returned 200 ok,High
+"User is registered correctly while there is no email, password","1. use [post] /api/v1/users endpoint
+2. use this curl
+curl --location 'http://localhost:3000/api/v1/users' \
+--header 'Content-Type: application/json' \
+--data '{
+  ""name"": ""1234"",
+  ""email"": """",
+  ""password"": """"
+}'",user should not be registered and endpoint returns 400 bad request,endpoint returned 200 ok,High
+Authentication returns 200 ok while body is empty,"1. use this endpoint post /api/v1/auth
+2. user this curl
+curl --location 'http://localhost:3000/api/v1/auth' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+}'",endpoint should return 400 bad request,endpoint returned 200 ok,High
+update endpoint returns 200 ok in case of empty body,"1. user this endpoint PATCH /api/v1/users
+2. use this curl:
+curl --location --request PATCH 'http://localhost:3000/api/v1/users' \
+--header 'Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImludmFsaWQxMnRldHN0czM0QGdtYWlsLmNvbSIsImlkIjo5MzY2MSwiaWF0IjoxNzI5Njg5NzE3LCJleHAiOjE3Mjk3NzYxMTd9.8ammQBPIqQtF9ZcE5bRKcpXBuRdhE9kHI7_JhxfIpIQ' \
+--header 'Content-Type: application/json' \
+--data '{
+
+}'",endpoint should return 400 bad request,endpoint returned 200 ok,High
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,

@@ -1,0 +1,30 @@
+Test case,Status
+Validate that user is registered successfully,Failed
+Validate that user is not created if there is no email and password,Failed
+"Validate that user is not created if there is no email, password and name",Failed
+Validate that user is authenticated and return a token,Passed
+Validate that if user send wrong email endpoint will return 401,Passed
+Validate that if user send empty body endpoiny should return 400,Failed
+Validate that endpoint should return 403 for invalid token,Passed
+Validate that endpoint should get user info by token,Passed
+validate that endpoint should update user info,Passed
+Validate that endpoint should return 400 if body is empty,Failed
+Validate that endpoint should delete the user,Passed
+Validate that endpoint should return 403 in admin key is invalid,Passed
+Validate that endpoint should delete all users with admin key,Passed
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,

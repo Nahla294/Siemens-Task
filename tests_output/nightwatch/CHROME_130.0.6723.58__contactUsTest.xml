@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="10"
+            failures="1"
+            tests="1">
+
+  <testsuite name="nightwatch.contactUsTest"
+    errors="10" failures="1" hostname="" id="" package="nightwatch" skipped="0"
+    tests="1" time="87.62" timestamp="">
+  
+    <testcase name="Test Contact Us Form Submission" classname="nightwatch.contactUsTest" time="43.81" assertions="1">  <failure message="Testing if element &lt;Element [name=@successAlert]&gt; contains text &#39;Your message has been successfully sent&#39; in 5000ms - expected &#34;contains text &#39;Your message has been successfully sent&#39;&#34; but got: &#34;element could not be located&#34; (5274ms)">    at Test Contact Us Form Submission (/Users/nahlaahmed/Siemens-Task/tests/nightwatch/contactUsTest.js:9:21)</failure>
+
+    
+    <error message="ECONNREFUSED " type="error"><![CDATA[
+    Error: ECONNREFUSED 
+    at Timeout._onTimeout (/Users/nahlaahmed/Siemens-Task/node_modules/nightwatch/lib/transport/selenium-webdriver/httpclient.js:90:27)
+    at listOnTimeout (node:internal/timers:594:17)
+    at process.processTimers (node:internal/timers:529:7)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+         Error   Error while running .url(): Error: ECONNREFUSED 
+ NoSuchElementError
+   An error occurred while running .click() command on &lt;Element [name=@subjectHeading]&gt;: Timed out while waiting for element &#34;#id_contact&#34; with &#34;css selector&#34; to be present for 5000 milliseconds.
+    {&#34;error&#34;:{&#34;code&#34;:&#34;ECONNREFUSED&#34;},&#34;status&#34;:-1,&#34;value&#34;:null}
+
+    Try fixing by :
+    1. Please inspect the html before the step
+    2. Verify if an element with the mentioned selector is present in the DOM tree
+
+    Error location:
+    /Users/nahlaahmed/Siemens-Task/tests/nightwatch/contactUsTest.js:8
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     6 |         contactUsPage
+     7 |             .navigate()
+     8 |             .fillContactForm(&#39;@subjectOptionCustomerService&#39;, &#39;testuser@example.com&#39;, &#39;test&#39;, &#39;This is a test message&#39;, &#39;./test_files/image.png&#39;) 
+     9 |             .assert.containsText(&#39;@successAlert&#39;, &#39;Your message has been successfully sent&#39;);
+     10 | 
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+ NoSuchElementError
+   An error occurred while running .click() command on &lt;Element [name=@subjectOptionCustomerService]&gt;: Timed out while waiting for element &#34;select#id_contact option[value=&#34;2&#34;]&#34; with &#34;css selector&#34; to be present for 5000 milliseconds.
+    {&#34;error&#34;:{&#34;code&#34;:&#34;ECONNREFUSED&#34;},&#34;status&#34;:-1,&#34;value&#34;:null}
+
+    Try fixing by :
+    1. Please inspect the html before the step
+    2. Verify if an element with the mentioned selector is present in the DOM tree
+
+    Error location:
+    /Users/nahlaahmed/Siemens-Task/tests/nightwatch/contactUsTest.js:8
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     6 |         contactUsPage
+     7 |             .navigate()
+     8 |             .fillContactForm(&#39;@subjectOptionCustomerService&#39;, &#39;testuser@example.com&#39;, &#39;test&#39;, &#39;This is a test message&#39;, &#39;./test_files/image.png&#39;) 
+     9 |             .assert.containsText(&#39;@successAlert&#39;, &#39;Your message has been successfully sent&#39;);
+     10 | 
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+ NoSuchElementError
+   An error occurred while running .setValue() command on &lt;Element [name=@emailField]&gt;: Timed out while waiting for element &#34;#email&#34; with &#34;css selector&#34; to be present for 5000 milliseconds.
+    {&#34;error&#34;:{&#34;code&#34;:&#34;ECONNREFUSED&#34;},&#34;status&#34;:-1,&#34;value&#34;:null}
+
+    Try fixing by :
+    1. Please inspect the html before the step
+    2. Verify if an element with the mentioned selector is present in the DOM tree
+
+    Error location:
+    /Users/nahlaahmed/Siemens-Task/tests/nightwatch/contactUsTest.js:8
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     6 |         contactUsPage
+     7 |             .navigate()
+     8 |             .fillContactForm(&#39;@subjectOptionCustomerService&#39;, &#39;testuser@example.com&#39;, &#39;test&#39;, &#39;This is a test message&#39;, &#39;./test_files/image.png&#39;) 
+     9 |             .assert.containsText(&#39;@successAlert&#39;, &#39;Your message has been successfully sent&#39;);
+     10 | 
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+ NoSuchElementError
+   An error occurred while running .setValue() command on &lt;Element [name=@orderReference]&gt;: Timed out while waiting for element &#34;#id_order&#34; with &#34;css selector&#34; to be present for 5000 milliseconds.
+    {&#34;error&#34;:{&#34;code&#34;:&#34;ECONNREFUSED&#34;},&#34;status&#34;:-1,&#34;value&#34;:null}
+
+    Try fixing by :
+    1. Please inspect the html before the step
+    2. Verify if an element with the mentioned selector is present in the DOM tree
+
+    Error location:
+    /Users/nahlaahmed/Siemens-Task/tests/nightwatch/contactUsTest.js:8
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     6 |         contactUsPage
+     7 |             .navigate()
+     8 |             .fillContactForm(&#39;@subjectOptionCustomerService&#39;, &#39;testuser@example.com&#39;, &#39;test&#39;, &#39;This is a test message&#39;, &#39;./test_files/image.png&#39;) 
+     9 |             .assert.containsText(&#39;@successAlert&#39;, &#39;Your message has been successfully sent&#39;);
+     10 | 
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+ NoSuchElementError
+   An error occurred while running .setValue() command on &lt;Element [name=@messageField]&gt;: Timed out while waiting for element &#34;#message&#34; with &#34;css selector&#34; to be present for 5000 milliseconds.
+    {&#34;error&#34;:{&#34;code&#34;:&#34;ECONNREFUSED&#34;},&#34;status&#34;:-1,&#34;value&#34;:null}
+
+    Try fixing by :
+    1. Please inspect the html before the step
+    2. Verify if an element with the mentioned selector is present in the DOM tree
+
+    Error location:
+    /Users/nahlaahmed/Siemens-Task/tests/nightwatch/contactUsTest.js:8
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     6 |         contactUsPage
+     7 |             .navigate()
+     8 |             .fillContactForm(&#39;@subjectOptionCustomerService&#39;, &#39;testuser@example.com&#39;, &#39;test&#39;, &#39;This is a test message&#39;, &#39;./test_files/image.png&#39;) 
+     9 |             .assert.containsText(&#39;@successAlert&#39;, &#39;Your message has been successfully sent&#39;);
+     10 | 
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+ NoSuchElementError
+   An error occurred while running .setValue() command on &lt;Element [name=@fileUpload]&gt;: Timed out while waiting for element &#34;#fileUpload&#34; with &#34;css selector&#34; to be present for 5000 milliseconds.
+    {&#34;error&#34;:{&#34;code&#34;:&#34;ECONNREFUSED&#34;},&#34;status&#34;:-1,&#34;value&#34;:null}
+
+    Try fixing by :
+    1. Please inspect the html before the step
+    2. Verify if an element with the mentioned selector is present in the DOM tree
+
+    Error location:
+    /Users/nahlaahmed/Siemens-Task/tests/nightwatch/contactUsTest.js:8
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     6 |         contactUsPage
+     7 |             .navigate()
+     8 |             .fillContactForm(&#39;@subjectOptionCustomerService&#39;, &#39;testuser@example.com&#39;, &#39;test&#39;, &#39;This is a test message&#39;, &#39;./test_files/image.png&#39;) 
+     9 |             .assert.containsText(&#39;@successAlert&#39;, &#39;Your message has been successfully sent&#39;);
+     10 | 
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+ NoSuchElementError
+   An error occurred while running .click() command on &lt;Element [name=@submitButton]&gt;: Timed out while waiting for element &#34;#submitMessage&#34; with &#34;css selector&#34; to be present for 5000 milliseconds.
+    {&#34;error&#34;:{&#34;code&#34;:&#34;ECONNREFUSED&#34;},&#34;status&#34;:-1,&#34;value&#34;:null}
+
+    Try fixing by :
+    1. Please inspect the html before the step
+    2. Verify if an element with the mentioned selector is present in the DOM tree
+
+    Error location:
+    /Users/nahlaahmed/Siemens-Task/tests/nightwatch/contactUsTest.js:8
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     6 |         contactUsPage
+     7 |             .navigate()
+     8 |             .fillContactForm(&#39;@subjectOptionCustomerService&#39;, &#39;testuser@example.com&#39;, &#39;test&#39;, &#39;This is a test message&#39;, &#39;./test_files/image.png&#39;) 
+     9 |             .assert.containsText(&#39;@successAlert&#39;, &#39;Your message has been successfully sent&#39;);
+     10 | 
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+ Error
+   ECONNREFUSED 
+   Error   Error while running .session(): Error: ECONNREFUSED 
+   Error   Error while running .url(): Error: ECONNREFUSED 
+ NoSuchElementError
+   An error occurred while running .setValue() command on &lt;Element [name=@searchBar]&gt;: Timed out while waiting for element &#34;#search_query_top&#34; with &#34;css selector&#34; to be present for 5000 milliseconds.
+    {&#34;error&#34;:{&#34;code&#34;:&#34;ECONNREFUSED&#34;},&#34;status&#34;:-1,&#34;value&#34;:null}
+
+    Try fixing by :
+    1. Please inspect the html before the step
+    2. Verify if an element with the mentioned selector is present in the DOM tree
+
+    Error location:
+    /Users/nahlaahmed/Siemens-Task/tests/nightwatch/searchTests.js:7
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     5 |       homepage
+     6 |         .navigate()
+     7 |         .performSearch(&#39;dress&#39;)  
+     8 |         .verifyOnlyDressResults(); 
+     9 |   
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+ NoSuchElementError
+   An error occurred while running .click() command on &lt;Element [name=@searchButton]&gt;: Timed out while waiting for element &#34;button[name=&#34;submit_search&#34;]&#34; with &#34;css selector&#34; to be present for 5000 milliseconds.
+    {&#34;error&#34;:{&#34;code&#34;:&#34;ECONNREFUSED&#34;},&#34;status&#34;:-1,&#34;value&#34;:null}
+
+    Try fixing by :
+    1. Please inspect the html before the step
+    2. Verify if an element with the mentioned selector is present in the DOM tree
+
+    Error location:
+    /Users/nahlaahmed/Siemens-Task/tests/nightwatch/searchTests.js:7
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     5 |       homepage
+     6 |         .navigate()
+     7 |         .performSearch(&#39;dress&#39;)  
+     8 |         .verifyOnlyDressResults(); 
+     9 |   
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+   Error   Error while running .session(): Error: ECONNREFUSED 
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

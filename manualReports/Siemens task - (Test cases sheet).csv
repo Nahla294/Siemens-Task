@@ -1,0 +1,31 @@
+ID,Title,Pre-conditions,Steps,Expected results,Status
+1,Validate that the item page navbar is loaded correctly,,1. Press on an item in the home page,The page should be loaded correctly showing  the whole navbar section,Open
+2,Validate that the item route bar is shown correctly,,1. Press on an item in the home page,The route bar should be shown correctly and clickable,Open
+3,Validate that the item picture is loaded correctly,,1. Press on an item in the home page,The item picture should be shown correctly,Open
+4,Validate that magnifier icon is shwon and working correctly,,"1. Press on an item in the home page
+2. Press on magnifier icon",The magnifier icon should be shown correctly and when user press on it the photo should be zoomed with its title below the photo,Open
+5,Validate that the x button is working correctly,The user opened the item page and press on magnifier icon,1. Press on x button,The photo should return to its initial state ,Open
+6,Validate that the item info is shown correctly,,1. Press on an item in the home page,The item data should be shown beside the photo correctly,Open
+7,"Validate that ""This product is no longer in stock"" banner is shown if the item is out of stock",The item is out of stock,1. Press on an item in the home page,The banner should be shown correctly,Open
+8,Validate that social icons are shown and working correctly,,"1. Press on an item in the home page
+2. Press on each social icon","1. Social icons should be shown in right arrangement twitter,facebook,google then pinterest
+2. Each one of them should be clickable and redirects to the correct link ",Open
+9,Validate that the print button is working correctly,,"1. Press on an item in the home page
+2. Press on print button",The print modal should be shown corectly with the dress item to print,Open
+10,"Validate that ""Display all photos"" button is shown and working correctly",,"1. Press on an item in the home page
+2. Press on display all photos button","1. The button should be shown correctly
+2. More photos should be displayed when user press on the button",Open
+11,Validate that data sheet section is shown correctly with the needed data,,1. Press on an item in the home page,"Data sheet section should be shown correctly with item data: Compositions, styles and Properties",Open
+12,Validate that more info section is shown correctly,,1. Press on an item in the home page,More info section should be shown correctly,Open
+13,Validate that price and size section is shown correctly,,1. Press on an item in the home page,The price and size section should be shown correctly beside the item data section,Open
+14,Validate that size dropdown is working correctly,,"1. Press on an item in the home page
+2. Press on size dropdown",The size dropdown should be opened correctly shown the different item sizes and user can select any size from the dropdown and should be reflected in the dropdown placeholder,Open
+15,Validate that color icons are shown and clickable,,"1. Press on an item in the home page
+2. Press on color icons","1. Color icons should be shown correctly and clickable
+2. the item picture should change when user changes the color",Open
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,

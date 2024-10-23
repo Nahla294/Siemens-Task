@@ -1,0 +1,26 @@
+{
+  "name": "siemens-task",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "API and E2E testing for Siemens Task using Jest and Nightwatch",
+  "scripts": {
+    "test:api": "jest",
+    "test:nightwatch": "nightwatch",
+    "dev": "nodemon ./node_modules/mock-user-auth/bin/www.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chromedriver": "^130.0.0",
+    "jest": "^29.7.0",
+    "mock-user-auth": "^1.0.15",
+    "nightwatch": "^3.8.0",
+    "nightwatch-html-reporter": "^2.0.6",
+    "supertest": "^7.0.0"
+  },
+  "dependencies": {
+    "chai": "^5.1.1",
+    "mocha": "^10.7.3"
+  }
+}
